@@ -5,7 +5,7 @@ public class Main {
 
         double area =shape.getArea();
         double circum = shape.getCircumference();
-        return  "area is " + area + " circum is " + circum;
+        return  shape.getClass().getSimpleName() + " area is " + area + " circum is " + circum;
 
 
     }
